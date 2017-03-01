@@ -1,0 +1,153 @@
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table td
+{
+    border: 1px solid slategray;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.monthRow{
+    text-align: center;
+}
+
+.halfYear{
+    position: static;
+}
+.halfYear table{
+    float: left;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis {
+    font: normal 10px arial;
+    shape-rendering: crispEdges;
+}
+
+.d3svg-countryChart1 rect {
+    shape-rendering: crispEdges;
+}
+
+.d3svg-countryChart2 rect {
+    shape-rendering: crispEdges;
+}
+
+/*.d3svg-timeChart rect {
+    shape-rendering: crispEdges;
+}*/
+
+.d3svg-mapSilder {
+    position: absolute;
+    left: 35px;
+    top: 420px;
+}
+
+.ui-slider-vertical {
+    width: 5px;
+    height: 200px;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 20px;
+    height: 15px;
+}
+.d3svg-plus {
+    position: absolute;
+    left: 20px;
+    top: 380px;
+}
+
+.d3svg-minus {
+    position: absolute;
+    left: 20px;
+    top: 630px;
+}
+
+.d3svg-Compass{
+    position: absolute;
+    left: 5px;
+    top: 680px;
+}
+
+.d3svg-calendar {
+    position: absolute;
+    width: 60%;
+}
+
+.d3svg-dateDetail {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(192,192,192,0.6);
+    border: 1px solid silver;
+    position: absolute;
+    display: none;
+    padding: 10px;
+    font: normal 14px arial;
+    color: blue;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.d3svg-mapTitle{
+    text-align: center;
+    color: #fff;
+    background-color: #6f5499;
+    margin: 0 0 10px 0;
+    padding: 20px;
+    /*font-weight: bold;*/
+}
+
+.d3svg-dayTitle{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.d3svg-countryChart1{
+    position: absolute;
+    top: 145px;
+    left: 740px;
+    /*border: 1px solid black;*/
+}
+
+.d3svg-countryChart2{
+    position: absolute;
+    top: 145px;
+    left: 960px;
+    /*border: 1px solid black;*/
+}
+
+.d3svg-countryname{
+    font-size: 18px;
+    fill: Gray;
+}
+
+.d3svg-timeChart{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+.d3svg-ebolaMap ul.nav li > a{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.d3svg-ebolaMap ul.nav li.active > a{
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.nav-tabs{
+    margin-left: 15px;
+}
